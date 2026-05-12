@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+
+
+
+
+
+
+
+
+
+    }
+
+
+
+
+    .logodiv span{
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+        font-style: normal;
+        font-size: large;
+    }
+
+
+#color{
+    color: orangered
+
+}
+
+    
+
+
+
+    header{
+        width: 100%;
+
+        
+        
+        display: flex;
+        box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+        background-color: white;
+        padding: 20px 70px;
+        position: sticky;
+        top: 0;
+        align-items: center;
+
+        
+    }
+    .logodiv{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        
+    }
+
+    .logodiv img{
+        width: 7%;
+        
+
+    }
+    .navlinks{
+        display: flex;
+        gap: 40px;
+
+        
+    }
+    .navlinks li {
+        list-style: none;
+    }
+    .navlinks li a {
+        text-decoration: none       ;
+        color: black;
+    }
+
+    .hero img {
+        width: 120% ;
+    
+
+    }
+    .hero {
+        display: flex;
+        align-items: center;
+        
+        
+    }
+    .con{
+        display: flex;
+flex-direction: column;
+gap: 23px;
+padding: 0px 300px 0px 0px;
+font-family: sans-serif;
+font-size: 18px;
+font-style: italic;
+
+
+
+
+
+
+    }
+
+    #col1{
+        color: orangered;
+        text-shadow: 5px 5px 8px rgb(238, 5, 5);
+    }
+    #col2{
+        color: rgb(29, 29, 59);
+        text-shadow: 5px 5px 8px rgb(3, 3, 139);
+    }
+    
+.con button{
+    background-color: transparent;
+    border: none;
+    width: 100px;
+    background-color: rgb(30, 93, 175);
+border-radius: 7px;
+border: 1px solid black;
+padding: 10px 15px;
+
+
+}
+
+button:hover{
+    cursor: pointer;
+    
+}
+button:active{
+    background-color: rgb(3, 7, 58);
+}
