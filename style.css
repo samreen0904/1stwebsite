@@ -239,10 +239,193 @@ button:active{
 
 #pic{
     background-color: white;
+
+
+    }
+    .feature{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 50px 0px;
+        gap: 70px;
+    }
+    .firstchild{
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+        .secoundchild{
+            width: 40%;
+        }
+        
+        .secoundchild img{
+            width: 100%;
+        }
+        .box1{
+            display: flex;
+            align-items: center;
+            background-color: #fff;
+            padding: 20px 40px;
+            border-radius: 12px;
+        }
+        .box1 img{
+            width: 50%;
+        }
+        .moon{
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            font-family: roboto;
+    
+        }
+        .moon h4{
+            font-size: 20px;
+            font-weight: 700;
+                color: rgb(54, 57, 88);
+        }
+        .moon p{
+            font-size: 16px;
+            color: rgb(33, 37, 41);
+        }
+
+
+        .meansub{
+            width: 100%;
+            height: 40vh;
+            display: flex;
+            justify-content: center;
+        }
+        .subscrib{
+        height: 35vh;
+                background-color: #fff;
+    border-radius: 20px;
+    padding: 40px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+    border: none;
+    text-align: center;
+    width: 88%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+        
+            
+    
+
+    }
+            
+
+        
+        .meansub h4{
+            font-size: 24px;
+    font-family: roboto;
+
+    color: rgb(54, 57, 88);
+    font-weight: 700;
+
+        }
+        .subscrib-form{
+                display: flex;
+    justify-content: center;
+    max-width: 1000px;
+    padding: 24px;
+     padding: 6px 12px;
+        
+    
 }
+.subscribe-form input {
+    flex: 1;
+    padding: 6px 12px;
+    font-size: 16px;
+    font-weight: 400;
+    border: 1px solid #ccc;
+    border-right: none;
+    border-radius: 4px 0 0 4px;
+width: 80%;
+height: 43px;
+    }
+
 
 
     
+.subscribe-form button {
+    font-size: 16px;
+    color: #fff;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    background-color: #3D4FF3;
+    padding: 12px;
+    border: none;
+    
+
+    }
+
+    .footer{
+        background-color: #f8f9fa;
+        width: 100%;
+        
+        padding: 50px 120px 30px 100px;
+        display: flex;
+        gap: 180px;
+        flex-wrap: wrap;
+        gap: 60px;
+        justify-content: space-between;
+    
+    }
+
+    .footer-box{
+    width: 15%;
+        height: 20vh;
+        background-color: #f8f9fa;
+        display: flex;
+        align-items: center;
+
+        
+    
+
+    }
+    .footer-links{
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        font-family: roboto;
+
+    }
+    .footer-links h5{
+        color: rgb(54, 57, 88) ;
+        font-size: 20px;
+
+    }
+    .footer-links ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+      color: rgb(33, 37, 41);
+      font-size: ;
+      cursor: pointer;
+    }
+    .footer-note{
+        padding: 0px 380px;
+
+    font-size: 16px;
+    color: rgb(33, 37, 41); 
+    font-family: roboto; 
+    
+    
+    }
+    #me{
+        color: rgb(255, 131, 103);
+    }
+
+
+
+
+
+
+
 
 
 
